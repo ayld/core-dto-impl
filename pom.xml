@@ -9,6 +9,11 @@
 
 	<packaging>jar</packaging>
 	<name>Core DTO Impl</name>
+        <parent>
+              <groupId>ayld.core</groupId>
+              <artifactId>parent</artifactId>
+              <version>0.0.1-SNAPSHOT</version>
+        </parent>
 	
 	<dependencies>
 		<dependency>
